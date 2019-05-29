@@ -1,0 +1,38 @@
+{
+  "name": "guess-mine",
+  "version": "1.0.0",
+  "description": "Realtime Drawing Game built with SocketIO, Gulp and Node",
+  "main": "index.js",
+  "repository": "https://github.com/chopisal/guess-mine.git",
+  "author": "SeongBongKim <chopisal@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "eslint-plugin-prettier": "^3.1.0",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.1",
+    "pug": "^2.0.3",
+    "socket.io": "^2.2.0"
+  },
+  "scripts": {
+    "dev:server": "nodemon --exec babel-node src/server",
+    "dev:assets": "gulp"
+  },
+  "devDependencies": {
+    "del": "^4.1.1",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-import": "^2.17.3",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-csso": "^3.0.1",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.12.0",
+    "prettier": "^1.17.1"
+  }
+}
